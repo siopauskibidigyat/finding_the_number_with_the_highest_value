@@ -67,4 +67,4 @@ def find_highest(num1, num2, num3, num4, num5):
                     print(f"The highest number is {num4}")
                 else:
                     print(f"The highest number is {num5}")
-
+res = find_highest(num1=0, num2=0, num3=0, num4=0, num5=0)
