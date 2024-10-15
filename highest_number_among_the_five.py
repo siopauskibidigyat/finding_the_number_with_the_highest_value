@@ -29,7 +29,6 @@ def find_highest(num1, num2, num3, num4, num5):
                     print(f"The highest number is {num1}")
                 else:
                     print(f"The highest number is {num5}")
-res = find_highest(num1=0, num2=0, num3=0, num4=0, num5=0)
 #else if var1 is less than var2
     #compare var2 to var3
     #if var2 is greater than var3
@@ -39,3 +38,11 @@ res = find_highest(num1=0, num2=0, num3=0, num4=0, num5=0)
     #if var2 is greater than var5
     #print var2
     #if not print var 5
+    elif num1 < num2:
+        if num2 > num3:
+            if num2 > num4:
+                if num2 > num5:
+                    print(f"The highest number is {num2}")
+                else:
+                    print(f"The highest number is {num5}")
+res = find_highest(num1=0, num2=0, num3=0, num4=0, num5=0)
